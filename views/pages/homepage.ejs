@@ -1,0 +1,35 @@
+<script src="/js/chat.js"></script>
+<h1 class="display-3">Welcome to Chat App</h1>
+<br/>
+<div id="first-time-username">
+    <h3 class="form-label">Please enter your username to start chatting...</h3>
+    <br/>
+    <div class="form-group">
+        <input type="text" autofocus="autofocus" id="username-input" class="col-md-5 form-control" name="username" placeholder="Enter Your Name Here..." />
+    </div>
+    <input type="submit" value="Submit" id="login-button" class="btn btn-primary" />
+</div>
+<div id="user"> </div>
+<br/>
+
+<h1 class="display-5">Online Users</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">userId</th>
+            <th scope="col">Name</th>
+        </tr>
+    </thead>
+    <tbody id="users">
+    </tbody>
+</table>
+
+<br/>
+<div>
+    <input type="text" id="toSendMsgUser" class="col-md-5 form-control" name="toUser" placeholder="Enter User's Id to Send Message..." />
+</div>
+<br/>
+<input type="submit" value="Let's Chat!" id="toSubcribeUser" class="btn btn-primary" />
+<br/>
+<br/>
+<div id="chat-screen"></div>
